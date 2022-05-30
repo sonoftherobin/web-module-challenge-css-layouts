@@ -61,8 +61,8 @@ body {
   header{
       display: flex;
 	  justify-content: baseline;
-	  border:solid black 2px;
-	  background-color: blanchedalmond;
+	  /* border:solid black 2px; */
+	  /* background-color: blanchedalmond; */
 	  
   }
   #navBar{
@@ -123,6 +123,11 @@ body {
 	  height: 20vh;
 	  width: 100%;
   }
+  #mainName{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
   
   h1{
        font-family: 'Smooch', cursive;;
@@ -154,3 +159,58 @@ body {
 	  padding:1%;
 	  
   }
+  @media(max-width: 500px){
+
+header{
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+	flex-direction: column;
+	/* border:solid black 2px; */
+	/* background-color: blanchedalmond; */
+	
+}
+#navBar{
+	display:flex;
+	width: 40%;
+	height: 6vh;
+	justify-content:space-evenly;
+	align-items: center;
+	padding:1%;
+	padding-top: 1.5%;
+}
+
+#name{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding:1%;
+}
+#main{
+	display:flex;
+	flex-direction: column;
+	height: 34vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://thumbs.dreamstime.com/b/scenic-view-moraine-lake-mountain-range-sunset-landscape-canadian-rocky-mountains-49666349.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+  }
+  #mainName{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  }
+  h1{
+	  display: flex;
+	  justify-content: center;
+	  width: 100%;
+	  font-size: 4rem;
+  }
+}
+  
